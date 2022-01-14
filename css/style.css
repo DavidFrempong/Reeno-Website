@@ -244,24 +244,24 @@ display: inline-block;
     }
 
 
-.fixed-slider-slidemain-timeline{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    z-index: 4;
-}
-
-.fixed-slider-slidemain-line{
-    height: 5px;
-    width: 0px;
-    background: #FFFFFF;
-    transition: width 6s ease-in-out;
-}
-
-.fixed-slider.slidemain-active .fixed-slider-slidemain-line{
-    width: 100%;
-    background: #00FFA3;
-}
+.fixed-slider-timeline{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 4;
+    }
+    
+    .fixed-slider-line{
+        height: 5px;
+        width: 0;
+        background: #ffffff;
+        transition: width 7s ease-in-out;
+    }
+    
+    .fixed-slider-slidemain-active  .fixed-slider-line{
+        width: 100%;
+        background: #00cce7;
+    }
 
 
 
